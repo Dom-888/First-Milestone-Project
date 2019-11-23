@@ -4,6 +4,21 @@
     margin: 0;
 } */
 
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans:400,400i&display=swap');
+
+body {
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+
+/* Navbar */
+
+
+
+
+
+
+
 .about {
     background-image: url("../images/opening.jpg");
     width: 100%;
