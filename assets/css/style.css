@@ -13,7 +13,9 @@ body {
 
 /* Navbar */
 
-
+.navbar-nav {
+    /* position: fixed; */
+}
 
 
 
