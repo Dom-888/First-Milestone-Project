@@ -4,24 +4,29 @@
     margin: 0;
 } */
 
+
 @import url('https://fonts.googleapis.com/css?family=Ropa+Sans:400,400i&display=swap');
 
 body {
     font-family: 'Ropa Sans', sans-serif;
 }
 
-
-/* Navbar */
-
-.navbar-nav {
-    /* position: fixed; */
+section  {
+    height: 500px;
 }
 
 
+/*----------NAVBAR---------*/
+
+.navbar {
+    text-transform: uppercase
+}
 
 
+/*----------THE BAND---------*/
 
-.about {
+
+#the-band {
     background-image: url("../images/opening.jpg");
     width: 100%;
     height: 1000px;
@@ -47,3 +52,44 @@ body {
 	border-radius: 10px;
 	background-color: gray;
 }
+
+
+/*----------MUSIC---------*/
+
+
+#music {
+    background-color: red;
+}
+
+
+
+
+/*----------TOUR---------*/
+
+
+#tour {
+    background-color: blue;
+}
+
+
+
+
+/*----------STORE---------*/
+
+#store {
+    background-color: yellow;
+}
+
+
+
+/*----------CONTACT---------*/
+
+
+#contact {
+    background-color: purple;
+}
+
+
+
+/*----------FOOTER---------*/
+
