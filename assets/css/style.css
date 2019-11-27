@@ -4,15 +4,43 @@
     margin: 0;
 } */
 
+body, html {
+      height: 100%;
+      margin: 0;
+      font-family: 'Ropa Sans', sans-serif;
+}
+
 
 @import url('https://fonts.googleapis.com/css?family=Ropa+Sans:400,400i&display=swap');
 
-body {
-    font-family: 'Ropa Sans', sans-serif;
-}
 
 section  {
     height: 500px;
+}
+
+/* Contain the parts that scroll over the background */
+.scroll {
+    background-color: #ffe0f6;
+    padding: 10px 70px;
+    color: #666666;
+}
+
+
+/* Keep the background fixed while the sections scroll over */
+.background {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%; 
+    width: 100%;
+    color: #eeeeee;
+    text-align: center;
+    display: table;
+}
+
+.one {
+    
 }
 
 
