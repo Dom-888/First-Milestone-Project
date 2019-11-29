@@ -74,15 +74,20 @@ section  {
 
 #the-band {
 
-
 }
 
-.base {
+.hoof {
+    /* Aggiungere descrizione */
+    margin-top: 100vh;
+    height: 100px;
+}
 
-    /* Aggiungere un div invisibile di altezza uguale alla navbar */
+
+.mask {
+
     width: 100%;
     height: 100vh;
-    margin-top: 100vh;
+
 	border: solid 1px black;
 	background-color: white; 
 	mix-blend-mode: hard-light;
