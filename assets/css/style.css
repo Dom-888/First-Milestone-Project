@@ -34,10 +34,11 @@ section  {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 100%; 
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     text-align: center;
     display: table;
+
 }
 
 .one {
@@ -73,12 +74,13 @@ section  {
 
 
 #the-band {
+    margin-top: 100vh;
 
 }
 
 .hoof {
-    /* Aggiungere descrizione */
-    margin-top: 100vh;
+    /* Aggiungere descrizione, non si può mettere come margin top in section? */
+    
     height: 100px;
 }
 
@@ -108,9 +110,28 @@ section  {
 
 
 #music {
-    background-color: red;
+
 }
 
+.row {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+
+}
+
+.embedded-video {
+    border: white solid;
+    width: 18rem;
+    height: 18rem;
+    margin: 10px;
+    padding: 10px;
+}
+
+.col {
+    margin-right:15px;
+    /* Doesn't work */
+}
 
 
 
@@ -118,7 +139,7 @@ section  {
 
 
 #tour {
-    background-color: blue;
+
 }
 
 
