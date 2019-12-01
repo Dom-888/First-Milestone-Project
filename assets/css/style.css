@@ -14,17 +14,10 @@ body, html {
 
 @import url('https://fonts.googleapis.com/css?family=Ropa+Sans:400,400i&display=swap');
 
-
-section  {
-
-}
-
-/* Contain the parts that scroll over the background */
-/* .scroll { */
-    /* background-color: #ffe0f6;
-    padding: 10px 70px;
-    color: #666666;
+/* .container {
+    margin: 0;
 } */
+
 
 
 /* Keep the background images fixed while the sections scroll over */
@@ -77,7 +70,6 @@ section  {
 
 #the-band {
     margin-top: 100vh;
-
 }
 
 .hoof {
@@ -115,20 +107,6 @@ section  {
 
 }
 
-.row {
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-    border: red solid;
-}
-
-.container {
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-    border: blue solid;
-
-}
 
 
 
@@ -153,9 +131,6 @@ section  {
 
 padding: 20px;
 
-/* mediaquery: big */
-/* padding: 80px; */
-
 }
 
 
@@ -175,10 +150,62 @@ padding: 20px;
 
 
 #contact {
-    background-color: purple;
+    background-color: gainsboro;
+    height: 100vh;
 }
 
+#contact > h2 {
+    text-align: center;
+    padding-top: 200px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
 
 
 /*----------FOOTER---------*/
 
+footer {
+    height: 50px;
+}
+
+/*----------TEMPORARY---------*/
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
