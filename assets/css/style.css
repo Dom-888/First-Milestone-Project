@@ -31,6 +31,7 @@ section  {
 /* Credit: https://www.w3docs.com/snippets/css/how-to-change-the-background-image-on-scroll-with-css.html  */
 
 .background {
+    position: relative;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,23 +131,16 @@ section  {
 }
 
 
-.embedded-video {
-    border: white solid;
-    width: 18rem;
-    height: 18rem;
-    margin-top: 50px;
-}
 
 .row {
     display: inline-table;
     justify-content: center;
     align-items: center;
+
 }
 
-.col {
-    margin-left: auto;
-    margin-right: auto;
-
+.embedded-video {
+    margin: 30px 10px;
 }
 
 /*----------TOUR---------*/
@@ -159,6 +153,8 @@ section  {
 
 padding: 20px;
 
+/* mediaquery: big */
+/* padding: 80px; */
 
 }
 
