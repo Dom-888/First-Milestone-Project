@@ -16,7 +16,7 @@ body, html {
 
 
 section  {
-    height: 500px;
+
 }
 
 /* Contain the parts that scroll over the background */
@@ -151,13 +151,21 @@ section  {
 
 /*----------TOUR---------*/
 
+/*Credit: bootstrap table*/
+
+
 
 #tour {
+
+padding: 20px;
+
 
 }
 
 
+.buy-button {
 
+}
 
 /*----------STORE---------*/
 
