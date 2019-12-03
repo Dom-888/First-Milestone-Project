@@ -90,6 +90,21 @@ body, html {
 
 }
 
+@media(max-width:1311px){
+    .desktop {
+        display: none;
+        }
+    }
+
+@media(min-width:1312px){
+    .mobile-and-tablet {
+        display: none;
+        }
+    .desktop {
+        display: block;
+        }
+    }
+    
 
 .mask {
 
