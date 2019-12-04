@@ -1,8 +1,8 @@
 
-*{
+/* *{
     padding: 0;
     margin: 0;
-    }
+    } */
 
 body, html {
       height: 100%;
@@ -24,9 +24,7 @@ body, html {
 
 
 
-#the-band {
-    margin-top: 100vh;
-}
+
 
 
 
@@ -78,50 +76,93 @@ body, html {
 
 /*----------THE BAND---------*/
 
-
-#the-band {
-
-    
-}
-
-.hoof {
-    /* Aggiungere descrizione, non si può mettere come margin top in section? */
-    
-
-}
-
 @media(max-width:1311px){
-    .desktop {
+    .large-screens {
         display: none;
         }
     }
 
 @media(min-width:1312px){
-    .mobile-and-tablet {
+    .small-screens {
         display: none;
         }
-    .desktop {
+    .large-screens {
         display: block;
         }
     }
     
+
+#the-band {
+    margin-top: 100vh;
+}
+
+.heading {
+
+}
+
+.intro {
+
+}
+
+/*----------SMALL SCREENS---------*/
+
+.small-screens {
+    padding: 30px;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #F7EFED;
+}
+
+.small-screens > container {
+
+}
+
+.small-screens > row {
+
+}
+
+.member {
+    border:red solid;
+    margin: 15px auto 0 auto;
+    text-align: center;
+    padding-left: 0px;
+
+}
+
+.member > img {
+    width: 90%;
+    max-width: 200px;
+    
+}
+
+.member > h2 {
+    color: #9A0501;
+    text-transform: uppercase;
+/* Since the name "Puikkonen" was larger than the parent div (and I didn't want resize it) I used this psuedo classes to center it. Credit to: https://stackoverflow.com/questions/6618648/can-overflow-text-be-centered */
+    margin-left: -100%;
+    margin-right: -100%;
+    text-align: center;
+}
+
+/*----------LARGE SCREEN---------*/
+
 
 .mask {
 
     width: 100%;
     height: 100vh;
 
-	border: solid 1px black;
-	background-color: white; 
+	background-color: #F7EFED;; 
 	mix-blend-mode: hard-light;
 }
 
 .hole {
     display: inline-block;
+    
 	width: 10%;
-	height: 160px;
+	height: 150px;
+
 	margin: 2%;
-	border: solid 1px red;	
 	border-radius: 10px;
 	background-color: gray;
 }
@@ -137,7 +178,7 @@ body, html {
 
 
 
-.row {
+.music > .row {
     display: inline-table;
     justify-content: center;
     align-items: center;
