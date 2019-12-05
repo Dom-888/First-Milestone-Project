@@ -1,18 +1,27 @@
 
-*{
+/*----------General---------*/
+
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans:400,400i&display=swap');
+
+/* *{
     padding: 0;
     margin: 0;
-    }
+    } */
 
-body, html {
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
       height: 100%;
       margin: 0;
       padding: 0;
       font-family: 'Ropa Sans', sans-serif;
-      /* This solve the "white-space" problem  */
       overflow-x: hidden;
+
 }
-@import url('https://fonts.googleapis.com/css?family=Ropa+Sans:400,400i&display=swap');
 
 
 /* This class accompanies all internal links of the page, preventing the destination of these from being partially covered by the navbar */
@@ -28,7 +37,7 @@ body, html {
 
 
 
-
+/*----------Backgrounds---------*/
 
 
 /* Keep the background images fixed while the sections scroll over */
@@ -69,7 +78,7 @@ body, html {
     background-image: url("../images/end.jpg");
 }
 
-/*----------NAVBAR---------*/
+/*----------Navbar---------*/
 
 .navbar {
     text-transform: uppercase;
@@ -77,7 +86,7 @@ body, html {
 }
 
 
-/*----------THE BAND---------*/
+/*----------The Band---------*/
 
 @media(max-width:1311px){
     .large-screens {
@@ -138,7 +147,6 @@ body, html {
 }
 
 
-
 .member > img {
     width: 90%;
     max-width: 200px;
@@ -166,14 +174,12 @@ body, html {
 }
 
 
-/*----------MUSIC---------*/
+/*----------Music---------*/
 
 
 #music {
 
 }
-
-
 
 
 .music > .row {
@@ -187,7 +193,7 @@ body, html {
     margin: 30px 10px;
 }
 
-/*----------TOUR---------*/
+/*----------Tour---------*/
 
 /*Credit: bootstrap table*/
 
@@ -204,13 +210,13 @@ padding: 20px;
 
 }
 
-/*----------STORE---------*/
+/*----------Store---------*/
 
 
 
 
 
-/*----------CONTACT---------*/
+/*----------Contact---------*/
 
 
 #contact {
@@ -257,13 +263,13 @@ input[type=submit]:hover {
 }
 
 
-/*----------FOOTER---------*/
+/*----------Footer---------*/
 
 footer {
     height: 50px;
 }
 
-/*----------TEMPORARY---------*/
+/*----------Temporary---------*/
 
 .center {
   margin: 0;
