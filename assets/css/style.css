@@ -1,19 +1,21 @@
 
-/* *{
+*{
     padding: 0;
     margin: 0;
-    } */
+    }
 
 body, html {
       height: 100%;
       margin: 0;
       padding: 0;
       font-family: 'Ropa Sans', sans-serif;
+      /* This solve the "white-space" problem  */
+      overflow-x: hidden;
 }
 @import url('https://fonts.googleapis.com/css?family=Ropa+Sans:400,400i&display=swap');
 
 
-/* This class accompanies all internal links to the page, preventing the destination of these from being partially covered by the navbar */
+/* This class accompanies all internal links of the page, preventing the destination of these from being partially covered by the navbar */
 .scroll-to {
     position: relative;
     margin-top: -100px;
@@ -42,6 +44,7 @@ body, html {
     width: 100%;
     text-align: center;
     display: table;
+
 
 
 }
@@ -101,38 +104,15 @@ body, html {
 }
 
 .intro {
-
-}
-
-/*----------SMALL SCREENS---------*/
-
-.small-screens {
-    padding: 30px;
-    min-height: 100vh;
-    width: 100%;
-    background-color: #F7EFED;
-}
-
-.small-screens > container {
-
-}
-
-.small-screens > row {
-
+ padding-left: 20px;
+ padding-right: 20px;
 }
 
 .member {
-    border:red solid;
     margin: 15px auto 0 auto;
     text-align: center;
     padding-left: 0px;
 
-}
-
-.member > img {
-    width: 90%;
-    max-width: 200px;
-    
 }
 
 .member > h2 {
@@ -144,26 +124,44 @@ body, html {
     text-align: center;
 }
 
-/*----------LARGE SCREEN---------*/
+/*----------Small screens Only---------*/
 
-
-.mask {
-
+.small-screens {
+    padding: 30px;
+    min-height: 100vh;
     width: 100%;
-    height: 100vh;
+    background-color: #F7EFED;
+}
 
+.small-screens {
+
+}
+
+
+
+.member > img {
+    width: 90%;
+    max-width: 200px;
+    
+}
+
+
+
+/*----------Large screens only---------*/
+
+.large-screens {
 	background-color: #F7EFED;; 
 	mix-blend-mode: hard-light;
+    height: 100vh;
 }
+
 
 .hole {
     display: inline-block;
-    
-	width: 10%;
+	width: 150px;
 	height: 150px;
-
-	margin: 2%;
 	border-radius: 10px;
+    /* border-radius: 50%; */
 	background-color: gray;
 }
 
@@ -208,9 +206,7 @@ padding: 20px;
 
 /*----------STORE---------*/
 
-#store {
-    background-color: yellow;
-}
+
 
 
 
