@@ -1,8 +1,7 @@
-# Your Project's Name
+# Steve ‘n’ Seagulls Website
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+This is a website about the cover band *Steve ‘n’ Seagulls*.
+It's goal is offer to fan and potential fan all kind of information about the band 
  
 ## UX
  

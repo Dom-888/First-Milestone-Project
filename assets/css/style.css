@@ -201,8 +201,12 @@ body {
 
 #tour {
 
-padding: 20px;
+padding: 0 20px 0;
 
+}
+
+.tour > h2 {
+    padding:  15px 15px 0;
 }
 
 
@@ -226,8 +230,10 @@ padding: 20px;
 
 #contact > h2 {
     text-align: center;
-    padding-top: 200px;
+    padding-top: 50px;
 }
+
+/* credit:https://www.w3schools.com/css/css_form.asp */
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -235,7 +241,7 @@ input[type=text], select, textarea {
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  /* box-sizing: border-box; Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
