@@ -3,11 +3,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Ropa+Sans:400,400i&display=swap');
 
-/* *{
-    padding: 0;
-    margin: 0;
-    } */
 
+html body {
+    overflow-x: hidden;
+    /* margin: 0;
+    padding: 0; */
+}
 
 html {
   scroll-behavior: smooth;
@@ -16,10 +17,7 @@ html {
 
 body {
       height: 100%;
-      margin: 0;
-      padding: 0;
       font-family: 'Ropa Sans', sans-serif;
-      overflow-x: hidden;
 
 }
 
