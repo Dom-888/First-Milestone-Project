@@ -27,6 +27,7 @@ body {
     position: relative;
     margin-top: -100px;
     height: 100px;
+    z-index: -1;
     /* border: red solid; */
 }
 
@@ -35,7 +36,7 @@ section {
 }
 
 /*----------Color palette---------*/
-/* For the site color palette I choosed rustics, autumn-like colors, that I think may fit well the style of the band */
+/* I choosed rustics, autumn-like colors, that I think may fit well the style of the band */
 
 .bg-header {
     background-color: #380202;
@@ -46,7 +47,7 @@ section {
 }
 
 .bg-clear {
-   background-color: #f7f7f7;
+    background-color: #f7f7f7;
 }
 
 /*----------Backgrounds---------*/
@@ -121,13 +122,13 @@ section {
     margin-top: 100vh;
 }
 
-.heading {
-
+title {
+    color: #9A0501;
 }
 
-.intro {
- padding-left: 20px;
- padding-right: 20px;
+.intro { 
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .member {
@@ -208,19 +209,15 @@ section {
 
 /*Credit: bootstrap table (https://getbootstrap.com/docs/4.3/content/tables/)*/
 
-thead {
-    background-color: #380202;
-}
-
-
 #tour {
-
-padding: 0 20px 0;
-
+    padding: 0 20px;
 }
 
 .tour > h2 {
-    padding:  15px 15px 0;
+    color:#fafafa;
+    text-transform: uppercase;
+    padding:  10px;
+    margin: 0;
 }
 
 
