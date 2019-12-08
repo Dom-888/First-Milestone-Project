@@ -297,7 +297,7 @@ footer {
     font-size: 13px;
     line-height: 7px;
     display: inline-block;
-    background: #8f8f8f;
+    background: #fafafa;
     transition: 0.35s ease-in-out;
     -moz-transition: 0.35s ease-in-out;
     -webkit-transition: 0.35s ease-in-out;
@@ -305,7 +305,9 @@ footer {
 }
 
 i {
-    color: #fafafa;
+    color: #380202;
+    position: relative;
+    top: -2px;
 }
 
 /* Social color palette are from :https://brandpalettes.com/ */
@@ -324,6 +326,10 @@ i {
 
 .yt:hover{
     background-color:#FF0000;
+}
+
+.social-link:hover i{
+    color:#fafafa;
 }
 
 
