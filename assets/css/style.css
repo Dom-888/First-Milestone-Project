@@ -27,16 +27,27 @@ body {
     position: relative;
     margin-top: -100px;
     height: 100px;
-    border: red solid;
+    /* border: red solid; */
 }
 
 section {
     /* height: 100vh; */
 }
 
+/*----------Color palette---------*/
+/* For the site color palette I choosed rustics, autumn-like colors, that I think may fit well the style of the band */
 
+.bg-header {
+    background-color: #380202;
+}
 
+.bg-highlight {
+    background-color: #9A0501;
+}
 
+.bg-clear {
+   background-color: #f7f7f7;
+}
 
 /*----------Backgrounds---------*/
 
@@ -84,7 +95,7 @@ section {
 .navbar {
     text-transform: uppercase;
     height: 100px;
-    background-color: #380202
+
 }
 
 
@@ -141,7 +152,6 @@ section {
     padding: 30px;
     min-height: 100vh;
     width: 100%;
-    background-color: #F7EFED;
 }
 
 .small-screens {
@@ -160,7 +170,6 @@ section {
 /*----------Large screens only---------*/
 
 .large-screens {
-	background-color: #F7EFED;; 
 	mix-blend-mode: hard-light;
     height: 100vh;
 }
@@ -197,8 +206,11 @@ section {
 
 /*----------Tour---------*/
 
-/*Credit: bootstrap table*/
+/*Credit: bootstrap table (https://getbootstrap.com/docs/4.3/content/tables/)*/
 
+thead {
+    background-color: #380202;
+}
 
 
 #tour {
@@ -273,7 +285,7 @@ input[type=submit]:hover {
 
 footer {
     height: 50px;
-    background-color: #380202;
+
 
 }
 
@@ -281,12 +293,8 @@ footer {
 
 
 
-.social-link {
-    /* padding-bottom: 15px; */
-}
 
-
-/* Social icon style is from Rosie resume project*/
+/* Social icon style is from the Rosie resume project*/
 
 .social-link {
     margin: 9px 3px;
@@ -337,7 +345,7 @@ i {
 
 .center {
   margin: 0;
-  /* position: absolute; */
+  position: absolute;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
