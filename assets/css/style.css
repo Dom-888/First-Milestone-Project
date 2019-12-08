@@ -84,6 +84,7 @@ section {
 .navbar {
     text-transform: uppercase;
     height: 100px;
+    background-color: #380202
 }
 
 
@@ -272,34 +273,30 @@ input[type=submit]:hover {
 
 footer {
     height: 50px;
-    background-color: #525252;
-    color: #fafafa;
+    background-color: #380202;
 
-    margin: 0;
-}
-
-.inline-block {
-    display: inline-block;
 }
 
 
-.cv-pdf i:hover {
-    color: #e84160;
-}
+
+
 
 .social-link {
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
 }
 
-.social-link li a i{
+
+/* Social icon style is from Rosie resume project*/
+
+.social-link {
+    margin: 9px 3px;
     width: 32px;
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
-    text-align: center;
-    color: #fafafa;
+    display: inline-block;
     background: #8f8f8f;
     transition: 0.35s ease-in-out;
     -moz-transition: 0.35s ease-in-out;
@@ -307,8 +304,26 @@ footer {
     -o-transition: 0.35s ease-in-out;
 }
 
-.social-link li a i:hover{
-    background-color:#e67e22;
+i {
+    color: #fafafa;
+}
+
+/* Social color palette are from :https://brandpalettes.com/ */
+
+.fb:hover{
+    background-color:#4267B2;
+}
+
+.tw:hover{
+    background-color:#1DA1F2;
+}
+
+.ig:hover{
+    background-color:#C13584;
+}
+
+.yt:hover{
+    background-color:#FF0000;
 }
 
 
@@ -316,7 +331,7 @@ footer {
 
 .center {
   margin: 0;
-  position: absolute;
+  /* position: absolute; */
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
