@@ -1,0 +1,19 @@
+
+
+Section 1: The Band
+Offer a quick introduction to the member of the band
+
+Section 2: Best Hits
+Contains 6 embedded youtube video of the band best songs
+
+Section 3: Tour
+A bootstrap table of the tour with buttons to buy tickets
+
+Section 4: Store
+Contains 2 links: one to official merchandise page of the band and one to amazon
+
+Section 5: Contact
+Standard contact form
+
+Section 6: News
+Contains several embedded pages from facebook and twitter
