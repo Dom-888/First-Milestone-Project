@@ -16,7 +16,7 @@ html {
 
 
 body {
-      height: 100%;
+      /* height: 100%; */
       font-family: 'Ropa Sans', sans-serif;
 
 }
@@ -31,6 +31,17 @@ body {
     /* border: red solid; */
 }
 
+.section-header {
+    text-align: center;
+    color:#fafafa;
+    background-color: #380202;
+    text-transform: uppercase;
+    padding:  10px;
+    margin: 0;
+    /* margin: 0; */
+    
+}
+
 section {
     /* height: 100vh; */
 }
@@ -38,6 +49,7 @@ section {
 /*----------Color palette---------*/
 /* I choosed rustics, autumn-like colors, that I think may fit well the style of the band */
 
+/* Used for navbar, footer and section-headers */
 .bg-header {
     background-color: #380202;
 }
@@ -92,6 +104,7 @@ section {
 .navbar {
     text-transform: uppercase;
     height: 100px;
+    margin: 0;
 
 }
 
@@ -209,12 +222,7 @@ section {
     padding: 0 20px;
 }
 
-.tour > h2 {
-    color:#fafafa;
-    text-transform: uppercase;
-    padding:  10px;
-    margin: 0;
-}
+
 
 
 .buy-button {
