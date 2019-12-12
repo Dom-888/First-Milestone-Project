@@ -21,6 +21,16 @@ body {
 
 }
 
+.row {
+    border: red solid;
+    text-align: center;
+}
+
+
+.twitter-tweet {
+    width: 100vw;
+}
+
 
 /* This class accompanies all internal links of the page, preventing the destination of these from being partially covered by the navbar */
 .scroll-to {
