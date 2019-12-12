@@ -42,6 +42,15 @@ body {
     
 }
 
+
+
+/* Embedded elements for the sections: News, Best-Hits and Gallery */
+.embedded {
+    margin: 30px 10px;
+}
+
+
+
 section {
     /* height: 100vh; */
 }
@@ -150,7 +159,7 @@ section {
 .member > h2 {
     color: #9A0501;
     text-transform: uppercase;
-/* Since the name "Puikkonen" was larger than the parent div (and I didn't want resize it) I used this psuedo classes to center it. Credit to: https://stackoverflow.com/questions/6618648/can-overflow-text-be-centered */
+/* Since the name "Puikkonen" was larger than the parent div (and I didn't want resize it) I used the following code to center it. Credit to: https://stackoverflow.com/questions/6618648/can-overflow-text-be-centered */
     margin-left: -100%;
     margin-right: -100%;
     text-align: center;
@@ -195,7 +204,7 @@ section {
 }
 
 
-/*----------Music---------*/
+/*----------News---------*/
 
 
 #music {
@@ -203,6 +212,7 @@ section {
 }
 
 
+/* Che cosa fanno? */
 .music > .row {
     display: inline-table;
     justify-content: center;
@@ -210,9 +220,7 @@ section {
 
 }
 
-.embedded-video {
-    margin: 30px 10px;
-}
+
 
 /*----------Tour---------*/
 
@@ -229,9 +237,18 @@ section {
 
 }
 
+
+/*----------Best HIts---------*/
+
+
+
+
+
 /*----------Store---------*/
 
 
+
+/*----------Gallery---------*/
 
 
 
