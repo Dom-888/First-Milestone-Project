@@ -26,10 +26,14 @@ body {
     text-align: center;
 }
 
-
-.twitter-tweet {
-    width: 100vw;
+article {
+    border: solid blue;
+    max-width: 100%;
 }
+
+/* iframe .twitter-tweet {
+    max-width: 100%;
+} */
 
 
 /* This class accompanies all internal links of the page, preventing the destination of these from being partially covered by the navbar */
@@ -54,7 +58,7 @@ body {
 
 
 
-/* Embedded elements for the sections: News, Best-Hits and Gallery */
+
 .embedded {
     margin: 30px 10px;
 }
@@ -170,9 +174,8 @@ section {
     color: #9A0501;
     text-transform: uppercase;
 /* Since the name "Puikkonen" was larger than the parent div (and I didn't want resize it) I used the following code to center it. Credit to: https://stackoverflow.com/questions/6618648/can-overflow-text-be-centered */
-    margin-left: -100%;
-    margin-right: -100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 /*----------Small screens Only---------*/
