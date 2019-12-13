@@ -26,14 +26,16 @@ body {
     text-align: center;
 }
 
-article {
-    border: solid blue;
-    max-width: 100%;
+.col {
+    border: blue solid;
 }
 
-/* iframe .twitter-tweet {
-    max-width: 100%;
-} */
+
+.twitter-tweet {
+    width: 100%;
+}
+
+
 
 
 /* This class accompanies all internal links of the page, preventing the destination of these from being partially covered by the navbar */
