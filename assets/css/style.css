@@ -5,7 +5,7 @@
 
 
 html body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     /* margin: 0;
     padding: 0; */
 }
@@ -30,6 +30,9 @@ body {
     border: blue solid;
 }
 
+.container {
+    border: yellow solid;
+}
 
 .twitter-tweet {
     width: 100%;
@@ -83,6 +86,7 @@ section {
     background-color: #9A0501;
 }
 
+/* Used as background for the sections: The Band, Tour, Store and Contact */
 .bg-clear {
     background-color: #f7f7f7;
 }
@@ -242,6 +246,7 @@ section {
 /*Credit: bootstrap table (https://getbootstrap.com/docs/4.3/content/tables/)*/
 
 #tour {
+    background-color: red;
     padding: 0 20px;
 }
 
