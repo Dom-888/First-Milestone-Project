@@ -178,7 +178,6 @@ section {
 .member > h3 {
     color: #9A0501;
     text-transform: uppercase;
-/* Since the name "Puikkonen" was larger than the parent div (and I didn't want resize it) I used the following code to center it. Credit to: https://stackoverflow.com/questions/6618648/can-overflow-text-be-centered */
     display: flex;
     justify-content: center;
 }
@@ -249,11 +248,8 @@ section {
 /*Credit: bootstrap table (https://getbootstrap.com/docs/4.3/content/tables/)*/
 
 #tour {
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
-
-
-
 
 .buy-button {
 
@@ -276,18 +272,8 @@ section {
 
 /*----------Contact---------*/
 
-
-#contact {
-    background-color: gainsboro;
-}
-
-#contact > h2 {
-    padding-top: 50px;
-}
-
 /* credit:https://www.w3schools.com/css/css_form.asp */
 
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
@@ -299,27 +285,22 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #45a049;
-}
 
 /* Add a background color and some padding around the form */
 .container {
-  border-radius: 5px;
-  padding: 20px;
+    border-radius: 5px;
+    padding: 20px;
 }
 
+#country {
+    margin-bottom: 15px;
+}
+
+/* Submit button, credit from: https://getbootstrap.com/docs/4.0/components/buttons/ */
+
+#submit-button {
+    margin-top: 15px;
+}
 
 /*----------Footer---------*/
 
