@@ -49,7 +49,7 @@ body {
 
 .section-header {
     text-align: center;
-    color:#fafafa;
+    color:#f7f7f7;
     background-color: #380202;
     text-transform: uppercase;
     padding:  10px;
@@ -79,11 +79,12 @@ section {
     background-color: #380202;
 }
 
+/* Used for title, member names and navbar icons */
 .bg-highlight {
     background-color: #9A0501;
 }
 
-/* Used as background for the sections: The Band, Tour, Store and Contact */
+/* Used for section header text and also as background for the sections: The Band, Tour, Store and Contact */
 .bg-clear {
     background-color: #f7f7f7;
 }
@@ -158,7 +159,8 @@ section {
 }
 
 .title {
-    color: #9A0501;
+  color: #9A0501;
+  text-shadow: 2px 2px 3px #525252;
 }
 
 .intro { 
@@ -173,7 +175,7 @@ section {
 
 }
 
-.member > h2 {
+.member > h3 {
     color: #9A0501;
     text-transform: uppercase;
 /* Since the name "Puikkonen" was larger than the parent div (and I didn't want resize it) I used the following code to center it. Credit to: https://stackoverflow.com/questions/6618648/can-overflow-text-be-centered */
@@ -185,14 +187,8 @@ section {
 
 .small-screens {
     padding: 30px;
-    min-height: 100vh;
     width: 100%;
 }
-
-.small-screens {
-
-}
-
 
 .member > img {
     width: 90%;
@@ -206,7 +202,6 @@ section {
 
 .large-screens {
 	mix-blend-mode: hard-light;
-    height: 100vh;
 }
 
 
@@ -222,6 +217,7 @@ section {
 
 /*----------News---------*/
 
+/* Make embedded twitter responsive  */
 .twitter-tweet {
     width: 100% !important;
 }
@@ -253,7 +249,6 @@ section {
 /*Credit: bootstrap table (https://getbootstrap.com/docs/4.3/content/tables/)*/
 
 #tour {
-    background-color: red;
     padding: 0 20px;
 }
 
@@ -265,7 +260,7 @@ section {
 }
 
 
-/*----------Best HIts---------*/
+/*----------Best Hits---------*/
 
 
 
