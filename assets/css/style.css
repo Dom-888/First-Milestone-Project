@@ -61,9 +61,7 @@ body {
 
 
 
-.embedded {
-    margin: 30px 10px;
-}
+
 
 
 
@@ -224,22 +222,14 @@ section {
 .social-post {
     width: 100%; 
     background-color: #FFF;  
+    margin: 25px auto;
 }
 
 
 
-#music {
-
-}
 
 
-/* Che cosa fanno? */
-.music > .row {
-    display: inline-table;
-    justify-content: center;
-    align-items: center;
 
-}
 
 
 
@@ -247,20 +237,22 @@ section {
 
 /*Credit: bootstrap table (https://getbootstrap.com/docs/4.3/content/tables/)*/
 
-#tour {
-    /* padding: 0 20px; */
-}
-
-.buy-button {
-
-}
 
 
 /*----------Best Hits---------*/
 
 
+.embedded {
+    margin: 25px auto;
+}
 
+.row {
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 
+}
 
 /*----------Store---------*/
 
@@ -279,7 +271,7 @@ input[type=text], select, textarea {
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
-  /* box-sizing: border-box; Make sure that padding and width stays in place */
+  box-sizing: border-box;
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
