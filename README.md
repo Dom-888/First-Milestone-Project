@@ -1,7 +1,9 @@
-# Steve ‘n’ Seagulls Website
+# User Centric Frontend Development Milestone Project
+# The Steve ‘n’ Seagulls Website
 
-This is a website about the cover band *Steve ‘n’ Seagulls*.
-It's goal is offer to fan and potential fan all kind of information about the band 
+This is a website about the cover band Steve ‘n’ Seagulls. It's purpose is offer to fans and potential fans all kind of information about the band, Including latest news, tour dates, store links and more
+
+The goal is to keep users coming back for more.
  
 ## UX
  
