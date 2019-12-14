@@ -4,20 +4,24 @@
 @import url('https://fonts.googleapis.com/css?family=Ropa+Sans:400,400i&display=swap');
 
 
+* {
+    box-sizing: border-box;
+}
+
 html body {
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     /* margin: 0;
     padding: 0; */
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 
 body {
-      /* height: 100%; */
-      font-family: 'Ropa Sans', sans-serif;
+  /* height: 100%; */
+    font-family: 'Ropa Sans', sans-serif;
 
 }
 
@@ -247,7 +251,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-sizing: border-box;
+
 
 }
 
@@ -256,6 +260,12 @@ section {
 
 
 /*----------Gallery---------*/
+
+/* credit:https://www.w3schools.com/w3css/w3css_slideshow.asp */
+
+.gallery {
+    padding-bottom: 30px;
+}
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
@@ -275,25 +285,27 @@ section {
 /* Next & previous buttons */
 .prev,
 .next {
+
   cursor: pointer;
-  position: absolute;
-  top: 40%;
+  /* position: absolute;
+  top: 475%; */
+  position: relative;
   width: auto;
   padding: 16px;
   margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 50px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
-.next {
+/* .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-}
+} */
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
@@ -302,43 +314,25 @@ section {
 }
 
 /* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
+/* .numbertext {
   padding: 8px 12px;
-  position: absolute;
+  position: relative;
   top: 0;
-}
+} */
 
 /* Container for image text */
-.caption-container {
+/* .caption-container {
   text-align: center;
   background-color: #222;
   padding: 2px 16px;
   color: white;
-}
+} */
 
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
+} */
 
 
 
