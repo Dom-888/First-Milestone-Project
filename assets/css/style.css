@@ -34,9 +34,6 @@ body {
     border: yellow solid;
 }
 
-.twitter-tweet {
-    width: 100%;
-}
 
 
 
@@ -224,6 +221,16 @@ section {
 
 
 /*----------News---------*/
+
+.twitter-tweet {
+    width: 100% !important;
+}
+
+.social-post {
+    width: 100%; 
+    background-color: #FFF;  
+}
+
 
 
 #music {
