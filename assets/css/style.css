@@ -83,7 +83,7 @@ section {
     background-color: #380202;
 }
 
-/* Used for title, member names and navbar icons */
+/* Used for title, member names, slideshow indicator and navbar icons */
 .bg-highlight {
     background-color: #9A0501;
 }
@@ -293,6 +293,13 @@ section {
 .gallery {
     /* margin-top:30px; */
 }
+
+
+.carousel-indicators .active {
+    background-color: #9A0501;
+}
+
+
 
 
 /*----------Contact---------*/
