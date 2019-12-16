@@ -257,6 +257,30 @@ section {
 
 /*----------Store---------*/
 
+/* I've built this section using the grid and applying the BEM methodology */
+
+/* seleziona il container all'interno di store */
+.store .container {
+
+}
+
+
+.shop {
+    /* background-color: red; */
+
+}
+
+.shop--merchandise {
+}
+
+.shop--amazon {
+    /* background-color: blue; */
+}
+
+.shop--spotify {
+    /* background-color: green; */
+}
+
 
 
 /*----------Gallery---------*/
