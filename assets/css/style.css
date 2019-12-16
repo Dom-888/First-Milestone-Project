@@ -127,21 +127,19 @@ body {
     text-transform: uppercase;
     height: 100px;
     margin: 0;
-
-
 }
 
+.navbar a {
+    width: 91px;
+    height: 100px;
+    text-align: center;   
+}
 
 .navbar i  {
     font-size: 36px;
     margin: 15px auto 10px;
 }
 
-.navbar a {
-    height: 100px;
-    text-align: center;
-    
-}
 
 
 
