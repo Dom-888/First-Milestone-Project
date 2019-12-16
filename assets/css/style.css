@@ -39,6 +39,12 @@ body {
 } */
 
 
+.row {
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 
 
@@ -242,18 +248,13 @@ section {
 /*----------Best Hits---------*/
 
 
+
+
 .embedded {
     margin: 25px auto;
+    /* margin: 12% 4%; */
 }
 
-.row {
-    display: inline-table;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-
-}
 
 /*----------Store---------*/
 
@@ -261,12 +262,12 @@ section {
 
 /* seleziona il container all'interno di store */
 .store .container {
-
+    padding: 30px;
 }
 
 
+
 .shop {
-    /* background-color: red; */
     padding: 4%;
 
 }
