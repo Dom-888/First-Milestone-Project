@@ -267,18 +267,22 @@ section {
 
 .shop {
     /* background-color: red; */
+    padding: 4%;
 
 }
 
 .shop--merchandise {
+    
 }
 
 .shop--amazon {
     /* background-color: blue; */
+    
 }
 
 .shop--spotify {
     /* background-color: green; */
+    
 }
 
 
