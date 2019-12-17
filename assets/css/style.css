@@ -53,6 +53,7 @@ body {
 }
 
 .section-header {
+    display: none;
     text-align: center;
     color:#f7f7f7;
     background-color: #380202;
@@ -282,7 +283,11 @@ body {
 
 .shop {
     padding: 4%;
+}
 
+.shop img {
+    width: 100%;
+    height:auto;
 }
 
 .shop--merchandise {
