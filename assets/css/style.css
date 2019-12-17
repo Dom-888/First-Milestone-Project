@@ -60,7 +60,6 @@ body {
     text-transform: uppercase;
     padding:  10px;
     margin: 0;
-    /* margin: 0; */
     
 }
 
@@ -152,6 +151,37 @@ body {
 
    
 }
+
+/*----------Return to top button---------*/
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #9A0501; 
+    color: #f7f7f7;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 24px; /* Increase font size */
+    transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -webkit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+
+}
+
+#myBtn:hover {
+  background-color: #380202;
+}
+
+
+
+/*----------Sections---------*/
 
 
 /*----------The Band---------*/
