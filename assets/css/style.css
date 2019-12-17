@@ -129,6 +129,10 @@ body {
     margin: 0;
 }
 
+#logo {
+    /* margin-top: 10px; */
+}
+
 .navbar a {
     width: 91px;
     height: 100px;
