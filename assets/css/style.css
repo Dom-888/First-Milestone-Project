@@ -127,10 +127,26 @@ body {
     text-transform: uppercase;
     height: 100px;
     margin: 0;
+}
 
+.navbar a { 
+    text-align: center;
+}
+
+.navbar div{
+    color: #f7f7f7;
+    font-weight: bold;
+    background-color: #380202;
+    opacity:0.8;
+}
+
+/* Neutralize the effect if the navbar is compressed */
+.hvr-sweep-to-bottom:before {
+    background-color: transparent;
 }
 
 
+@media(min-width:768px){
 .navbar a {
     width: 91px; 
     height: 100px;
@@ -140,17 +156,24 @@ body {
 .navbar i  {
     font-size: 36px;
     margin: 16px auto 10px;
+    color: #f7f7f7;
+
+
 }
 
-
+.navbar div {
+    font-weight: normal;
+    background-color: transparent;
+}
 
 
 .hvr-sweep-to-bottom:before {
-    /* background-color: #9A0501; */
     background-color: #9A0501;
 
-   
 }
+
+}
+
 
 /*----------Return to top button---------*/
 
