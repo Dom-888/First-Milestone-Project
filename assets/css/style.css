@@ -258,7 +258,7 @@ body {
 
 .member h3 {
     color: #9A0501;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     display: flex;
     justify-content: center;
 }
@@ -390,7 +390,11 @@ body {
 
 /*----------Contact---------*/
 
-/*Contact section, credit:https://www.w3schools.com/css/css_form.asp */
+.contact h2 {
+    text-align: center;
+    color: #9A0501;
+    margin: 30px auto -30px;
+}
 
 input[type=text], select, textarea {
   width: 100%; 
@@ -400,10 +404,6 @@ input[type=text], select, textarea {
   margin-top: 6px; 
   margin-bottom: 16px; 
   resize: vertical 
-}
-
-.contact .container {
-    border-radius: 5px;
 }
 
 #country {
