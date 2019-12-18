@@ -250,7 +250,7 @@ body {
 
 }
 
-.member > h3 {
+.member h3 {
     color: #9A0501;
     text-transform: uppercase;
     display: flex;
@@ -264,12 +264,11 @@ body {
     width: 100%;
 }
 
-.member > img {
+.member img {
     width: 90%;
     max-width: 200px;
     
 }
-
 
 
 /*----------Large screens only---------*/
@@ -315,11 +314,28 @@ body {
 /*----------Best Hits---------*/
 
 
+.best-hits iframe {
+    /* 55% of the original dimensions, proportions maintained */
+    width: 308px;
+    height: 173px;
+}
 
+.embedded-ytb {
+    margin: 15px auto;
+}
 
-.embedded {
+@media (min-width: 1200px) {
+
+.best-hits iframe {
+    /* 90% of the original dimensions, proportions maintained */
+    width: 504px;
+    height: 283px;
+}
+
+.embedded-ytb {
     margin: 25px auto;
-    /* margin: 12% 4%; */
+}
+    
 }
 
 

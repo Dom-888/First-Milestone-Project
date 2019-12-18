@@ -14,8 +14,8 @@
 
 	<title>Steve ‘n’ Seagulls</title>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
 
 	<!-- Bootstrap and Fontawesome links -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -39,11 +39,11 @@
 		<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-header">
 
 			<!-- The band logo was taken from the official band site (https://stevenseagulls.com/) -->
-			<a href="#"class="my-auto">
-                <img src="assets/images/logo.png" alt="Band logo" width="85">
+			<a href="#" class="my-auto">
+				<img src="assets/images/logo.png" alt="Band logo" width="85">
             </a>
-				
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -98,9 +98,9 @@
 
 	</header>
 
-    <!-- Return to the top button, credit: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
-    <!-- Since this website is composed of a single scrolling page, the home page corresponds to the top of the page. For this reason instead of the classic upward arrow I used the home icon -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-home fa-lg"></i></button>
+	<!-- Return to the top button, credit: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+	<!-- Since this website is composed of a single scrolling page, the home page corresponds to the top of the page. For this reason instead of the classic upward arrow I used the home icon -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-home fa-lg"></i></button>
 
 
 
@@ -428,39 +428,57 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<div class="embedded">
-						<iframe width="300" height="230" src="https://www.youtube.com/embed/e4Ao-iNPPUc">
+            <!-- Thunderstruck -->
+				<div class="col-sm-12 col-md-6">
+					<div class="embedded-ytb">
+						<iframe src="https://www.youtube.com/embed/e4Ao-iNPPUc" frameborder="1"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen>
 						</iframe>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<div class="embedded">
-						<iframe width="300" height="230" src="https://www.youtube.com/embed/cZS12RiBQ3o">
+                <!-- You shock me all night long -->
+				<div class="col-sm-12 col-md-6">
+					<div class="embedded-ytb">
+						<iframe src="https://www.youtube.com/embed/cZS12RiBQ3o" frameborder="1"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen>
 						</iframe>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<div class="embedded">
-						<iframe width="300" height="230" src="https://www.youtube.com/embed/p1wqvyBH5Ls">
+                <!-- Born to be wild -->
+				<div class="col-sm-12 col-md-6">
+					<div class="embedded-ytb">
+						<iframe src="https://www.youtube.com/embed/p1wqvyBH5Ls" frameborder="1"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen>
 						</iframe>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<div class="embedded">
-						<iframe width="300" height="230" src="https://www.youtube.com/embed/DhC780htXOc">
+                <!-- It's a long way to the top -->
+				<div class="col-sm-12 col-md-6">
+					<div class="embedded-ytb">
+						<iframe src="https://www.youtube.com/embed/DhC780htXOc" frameborder="1"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen>
 						</iframe>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<div class="embedded">
-						<iframe width="300" height="230" src="https://www.youtube.com/embed/4Uvk4TgQWzI">
+                <!-- Self esteem -->
+				<div class="col-sm-12 col-md-6">
+					<div class="embedded-ytb">
+						<iframe src="https://www.youtube.com/embed/4Uvk4TgQWzI" frameborder="1"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen>
 						</iframe>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<div class="embedded">
-						<iframe width="300" height="230" src="https://www.youtube.com/embed/Z5mIO5OHCrk">
+                <!-- Gimme all your lovin' -->
+				<div class="col-sm-12 col-md-6">
+					<div class="embedded-ytb">
+						<iframe src="https://www.youtube.com/embed/Z5mIO5OHCrk" frameborder="1"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen>
 						</iframe>
 					</div>
 				</div>
@@ -624,7 +642,7 @@
 	</footer>
 
 
-   
+
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -637,7 +655,7 @@
 	</script>
 
 
- <script src="assets/js/index.js"></script>
+	<script src="assets/js/index.js"></script>
 
 </body>
 
