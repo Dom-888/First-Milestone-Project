@@ -20,7 +20,7 @@ body {
     overflow-x: hidden;
 }
 
-/* .row {
+.row {
     border: red solid;
 
 }
@@ -31,8 +31,10 @@ body {
 
 .container {
     border: yellow solid;
-} */
+}
 
+
+/* Custom Bootsrtap grid rule */
 
 .row {
     display: inline-table;
@@ -341,14 +343,11 @@ body {
 
 /*----------Store---------*/
 
-/* I've built this section using the bootstrap grid and applying the BEM methodology */
+/* This section was built using the bootstrap grid and applying the BEM methodology */
 
-/* seleziona il container all'interno di store */
 .store .container {
     padding: 30px;
 }
-
-
 
 .shop {
     padding: 4%;
@@ -398,13 +397,12 @@ input[type=text], select, textarea {
   padding: 12px;
   border: 1px solid #ccc; 
   border-radius: 4px; 
-  /* box-sizing: border-box; */
   margin-top: 6px; 
   margin-bottom: 16px; 
   resize: vertical 
 }
 
-.container {
+.contact .container {
     border-radius: 5px;
     padding: 20px;
 }
@@ -424,8 +422,6 @@ input[type=text], select, textarea {
 footer {
     height: 50px;
 }
-
-
 
 /* Social icon style is taken from the Rosie resume project*/
 
