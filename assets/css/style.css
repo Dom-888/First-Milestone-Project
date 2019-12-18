@@ -20,7 +20,7 @@ body {
     overflow-x: hidden;
 }
 
-.row {
+/* .row {
     border: red solid;
 
 }
@@ -31,10 +31,14 @@ body {
 
 .container {
     border: yellow solid;
-}
+} */
 
 
 /* Custom Bootsrtap grid rule */
+
+.container {
+    padding: 30px;
+}
 
 .row {
     display: inline-table;
@@ -345,10 +349,6 @@ body {
 
 /* This section was built using the bootstrap grid and applying the BEM methodology */
 
-.store .container {
-    padding: 30px;
-}
-
 .shop {
     padding: 4%;
 }
@@ -404,7 +404,6 @@ input[type=text], select, textarea {
 
 .contact .container {
     border-radius: 5px;
-    padding: 20px;
 }
 
 #country {
