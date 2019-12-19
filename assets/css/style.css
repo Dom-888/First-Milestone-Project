@@ -310,7 +310,7 @@ body {
 }
 
 
-#fb-post {
+.fb-post {
     height: 594px;
     background-color: #fff;
     border-radius: 5px;
