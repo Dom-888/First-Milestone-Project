@@ -20,7 +20,7 @@ body {
     overflow-x: hidden;
 }
 
-.row {
+/* .row {
     border: red solid;
 
 }
@@ -31,7 +31,7 @@ body {
 
 .container {
     border: yellow solid;
-}
+} */
 
 
 /* Custom Bootsrtap grid rule */
@@ -304,18 +304,18 @@ body {
 .social-post {
     /* background-color: #FFF;   */
     margin: 25px auto;
-
-    width: 100%;
-}
-
-.news iframe {
+    /* padding-bottom: 0px !important; */
     /* width: 100%; */
-    /* background-color: #000; */
-    /* height:110px; */
-    overflow: auto;
-
+    
 }
 
+
+#fb-post {
+    height: 594px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100% !important;
+}
 
 /*----------Tour---------*/
 
