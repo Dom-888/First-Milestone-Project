@@ -95,8 +95,13 @@ body {
 }
 
 .one {
-    background-image: url("../images/landing.jpg");
-    
+    background-image: url("../images/landingMobile.jpg");
+}
+
+@media(min-width:992px){
+.one {
+    background-image: url("../images/landingDesktop.jpg");
+}
 }
 
 .two {
