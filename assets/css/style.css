@@ -58,24 +58,12 @@ body {
     /* border: red solid; */
 }
 
-.section-header {
-    display: none;
-    text-align: center;
-    color:#f7f7f7;
-    background-color: #380202;
-    text-transform: uppercase;
-    padding:  10px;
-    margin: 0;
-    
-}
-
-
 
 
 /*----------Color palette---------*/
 /* I choosed rustics, autumn-like colors, that I think may fit well the style of the band */
 
-/* Used for navbar, footer and section-headers */
+/* Used for navbar background, footer and section-headers */
 .bg-header {
     background-color: #380202;
 }
@@ -212,18 +200,20 @@ body {
 
 /*----------Sections---------*/
 
-.section-header-light .section-header-dark {
-    text-align: center;
-}
 
-.section-header-light {
+
+
+.section-header  {
+    padding-top: 30px;
+    text-align: center;
     color: #9A0501;
 }
 
-.section-header-dark {
-    color: #ffffff;
-    background-color: #380202;
-    opacity:0.8;
+/* Used in sections with a background image to add contrast */
+.bg-darkened {
+    height: 200px;
+    margin-bottom: -170px;
+    background-image: linear-gradient(black, transparent);
 }
 
 
@@ -410,12 +400,6 @@ body {
 
 
 /*----------Contact---------*/
-
-.contact h2 {
-    text-align: center;
-    color: #9A0501;
-    margin: 30px auto -30px;
-}
 
 .contact input[type=text], select, textarea {
     width: 100%; 
