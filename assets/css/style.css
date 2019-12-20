@@ -217,7 +217,7 @@ body {
 /* Used in sections with a background image to add contrast */
 .bg-darkened {
     height: 200px;
-    margin-bottom: -170px;
+    margin-bottom: -200px;
     background-image: linear-gradient(black, transparent);
 }
 
