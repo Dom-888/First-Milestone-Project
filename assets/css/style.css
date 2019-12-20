@@ -212,6 +212,20 @@ body {
 
 /*----------Sections---------*/
 
+.section-header-light .section-header-dark {
+    text-align: center;
+}
+
+.section-header-light {
+    color: #9A0501;
+}
+
+.section-header-dark {
+    color: #ffffff;
+    background-color: #380202;
+    opacity:0.8;;
+}
+
 
 /*----------The Band---------*/
 
