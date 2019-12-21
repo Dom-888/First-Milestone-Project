@@ -317,8 +317,6 @@ body {
 
 /*----------Store---------*/
 
-/* This section was built using the bootstrap grid and applying the BEM methodology */
-
 .shop {
     padding: 4%;
 }
@@ -327,21 +325,6 @@ body {
     width: 100%;
     height:auto;
 }
-
-.shop--merchandise {
-    
-}
-
-.shop--amazon {
-    /* background-color: blue; */
-    
-}
-
-.shop--spotify {
-    /* background-color: green; */
-    
-}
-
 
 
 /*----------Gallery---------*/
