@@ -37,7 +37,7 @@ body {
 /* Custom Bootsrtap grid rule */
 
 .container {
-    padding: 30px;
+    padding: 20px;
 }
 
 .row {
@@ -55,7 +55,6 @@ body {
     margin-top: -100px;
     height: 100px;
     z-index: -1;
-    /* border: red solid; */
 }
 
 
@@ -68,7 +67,7 @@ body {
     background-color: #380202;
 }
 
-/* Used for title, favicon, member names, slideshow indicator, navbar icons and int the return-to-the-top button */
+/* Used for title, section headers, favicon, member names, slideshow indicator, navbar icons and in the return-to-the-top button */
 .bg-highlight {
     background-color: #9A0501;
 }
@@ -80,9 +79,7 @@ body {
 
 /*----------Backgrounds---------*/
 
-/* Keep the background images fixed while the sections scroll over */
-/* Credit: https://www.w3docs.com/snippets/css/how-to-change-the-background-image-on-scroll-with-css.html  */
-
+/* Keep the background images fixed while the sections scroll over credit: https://www.w3docs.com/snippets/css/how-to-change-the-background-image-on-scroll-with-css.html  */
 .background {
     position: relative;
     background-attachment: fixed;
@@ -139,12 +136,13 @@ body {
     opacity:0.8;
 }
 
-/* Neutralize the effect if the navbar is compressed */
+/* Neutralize the hover effect when the navbar is compressed */
 .hvr-sweep-to-bottom:before {
     background-color: transparent;
 }
 
 
+/*----------Expanded navbar---------*/
 @media(min-width:768px){
 .navbar a {
     width: 91px; 
@@ -156,8 +154,6 @@ body {
     font-size: 36px;
     margin: 16px auto 10px;
     color: #f7f7f7;
-
-
 }
 
 .navbar div {
@@ -168,11 +164,11 @@ body {
 
 .hvr-sweep-to-bottom:before {
     background-color: #9A0501;
-
 }
 
 }
 
+/*----------Buttons---------*/
 
 /*----------Return to top button---------*/
 
@@ -194,18 +190,24 @@ body {
     -moz-transition: 0.35s ease-in-out;
     -webkit-transition: 0.35s ease-in-out;
     -o-transition: 0.35s ease-in-out;
-
 }
 
 #myBtn:hover {
   background-color: #380202;
 }
 
+/*----------Book Now & Submit---------*/
 
+/* Customized bootstrap buttons, credit: https://getbootstrap.com/docs/4.0/components/buttons/ */
+.btn-primary {
+    background-color: #222D5A !important;
+}
+
+.btn-primary:hover {
+    text-decoration: underline !important;
+}
 
 /*----------Sections---------*/
-
-
 
 
 .section-header  {
@@ -214,7 +216,7 @@ body {
     color: #9A0501;
 }
 
-/* Used in sections with a background image to add contrast */
+/* Used in sections with a background image to add contrast between the header and the background*/
 .bg-darkened {
     height: 200px;
     margin-bottom: -200px;
@@ -224,25 +226,6 @@ body {
 
 /*----------The Band---------*/
 
-/* @media(max-width:1311px){
-    .large-screens {
-        display: none;
-        }
-    }
-
-@media(min-width:1312px){
-    .small-screens {
-        display: none;
-        }
-    .large-screens {
-        display: block;
-        }
-    }
-     */
-
-.large-screens {
-    display: none;
-}
 
 #the-band {
     margin-top: 100vh;
@@ -254,8 +237,7 @@ body {
 }
 
 .intro { 
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: auto 20px;
 }
 
 .member {
@@ -267,39 +249,13 @@ body {
 
 .member h3 {
     color: #9A0501;
-    /* text-transform: uppercase; */
-    display: flex;
+    display: flex; /*Added because the name Puikkonen is larger than its container*/
     justify-content: center;
-}
-
-/*----------Small screens Only---------*/
-
-.small-screens {
-    padding: 30px;
-    width: 100%;
 }
 
 .member img {
     width: 90%;
     max-width: 200px;
-    
-}
-
-
-/*----------Large screens only---------*/
-
-.large-screens {
-	mix-blend-mode: hard-light;
-}
-
-
-.hole {
-    display: inline-block;
-	width: 150px;
-	height: 150px;
-	border-radius: 10px;
-    /* border-radius: 50%; */
-	background-color: gray;
 }
 
 
@@ -311,23 +267,17 @@ body {
 }
 
 .social-post {
-    /* background-color: #FFF;   */
     margin: 20px auto;
-    /* padding-bottom: 0px !important; */
-    /* width: 100%; */
-    
 }
 
-
+/* Make embedded facebook responsive  */
 .fb-post {
     background-color: #fff;
     border-radius: 5px;
     width: 100% !important;
 }
 
-
 /* Adjust the height of facebook posts */
-
 #christmas {
     height: 594px;    
 }
@@ -345,9 +295,6 @@ body {
 
 /*Credit: bootstrap table (https://getbootstrap.com/docs/4.3/content/tables/)*/
 
-
-
-
 /*----------Best Hits---------*/
 
 /* Make youtube video responsive, credit to: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
@@ -359,15 +306,14 @@ body {
 	height: 0;
     margin: 20px auto;
 }
+
 .embedded-ytb iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-
 }
-
 
 /*----------Store---------*/
 
@@ -400,16 +346,9 @@ body {
 
 /*----------Gallery---------*/
 
-.gallery {
-    /* margin-top:30px; */
-}
-
-
 .carousel-indicators .active {
     background-color: #9A0501;
 }
-
-
 
 
 /*----------Contact---------*/
@@ -427,8 +366,6 @@ body {
 #country {
     margin-bottom: 15px;
 }
-
-/* Submit button, credit: https://getbootstrap.com/docs/4.0/components/buttons/ */
 
 #submit-button {
     margin-top: 15px;
