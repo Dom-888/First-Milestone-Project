@@ -320,11 +320,26 @@ body {
 
 
 .fb-post {
-    height: 594px;
     background-color: #fff;
     border-radius: 5px;
     width: 100% !important;
 }
+
+
+/* Adjust the height of facebook posts */
+
+#christmas {
+    height: 594px;    
+}
+
+#timber {
+    height: 353px;
+}
+
+#yacht {
+    height: 339px;
+}
+
 
 /*----------Tour---------*/
 
@@ -335,29 +350,22 @@ body {
 
 /*----------Best Hits---------*/
 
-
-.best-hits iframe {
-    /* 55% of the original dimensions, proportions maintained */
-    width: 308px;
-    height: 173px;
-}
+/* Make youtube video responsive, credit to: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
 
 .embedded-ytb {
-    margin: 15px auto;
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+    margin: 20px auto;
 }
+.embedded-ytb iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 
-@media (min-width: 1200px) {
-
-.best-hits iframe {
-    /* 90% of the original dimensions, proportions maintained */
-    width: 504px;
-    height: 283px;
-}
-
-.embedded-ytb {
-    margin: 25px auto;
-}
-    
 }
 
 
