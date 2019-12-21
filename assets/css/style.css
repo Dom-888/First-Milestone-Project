@@ -1,11 +1,11 @@
-
 /*----------General---------*/
 
 @import url('https://fonts.googleapis.com/css?family=Ropa+Sans:400,400i&display=swap');
 
 
 * {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 
@@ -42,8 +42,12 @@ body {
 
 .row {
     display: inline-table;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
 }
 
@@ -220,6 +224,8 @@ body {
 .bg-darkened {
     height: 200px;
     margin-bottom: -200px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
+    background-image: -o-linear-gradient(black, transparent);
     background-image: linear-gradient(black, transparent);
 }
 
@@ -250,8 +256,12 @@ body {
 
 .member h3 {
     color: #9A0501;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; /*Added because the name Puikkonen is larger than its container*/
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .member img {
@@ -356,10 +366,6 @@ body {
     margin-top: 15px;
 }
 
-.modal-header {
-    border: none !important;
-}
-
 /*----------Footer---------*/
 
 footer {
@@ -411,5 +417,4 @@ footer i {
 .social-link:hover i{
     color:#fafafa;
 }
-
 
