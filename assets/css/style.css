@@ -346,6 +346,7 @@ body {
     resize: vertical 
 }
 
+
 #country {
     margin-bottom: 15px;
 }
@@ -354,6 +355,9 @@ body {
     margin-top: 15px;
 }
 
+.modal-header {
+    border: none !important;
+}
 
 /*----------Footer---------*/
 
