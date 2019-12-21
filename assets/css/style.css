@@ -336,7 +336,7 @@ body {
 
 /*----------Contact---------*/
 
-.contact input[type=text], select, textarea {
+.contact input[type=text], input[type=email], select, textarea {
     width: 100%; 
     padding: 12px;
     border: 1px solid #ccc; 
@@ -350,9 +350,10 @@ body {
     margin-bottom: 15px;
 }
 
-#submit-button {
+.contact .btn {
     margin-top: 15px;
 }
+
 
 /*----------Footer---------*/
 
