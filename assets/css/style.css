@@ -200,7 +200,7 @@ body {
   background-color: #380202;
 }
 
-/*----------Book Now & Submit---------*/
+/*----------Book Now & Send---------*/
 
 /* Customized bootstrap buttons, credit: https://getbootstrap.com/docs/4.0/components/buttons/ */
 .btn-primary {
@@ -358,8 +358,9 @@ body {
 }
 
 
+
 #country {
-    margin-bottom: 15px;
+    margin: 5px 0 20px;
 }
 
 .contact .btn {
