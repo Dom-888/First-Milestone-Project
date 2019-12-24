@@ -106,18 +106,14 @@ body {
 }
 
 .two {
-    background-image: url("../images/novemberrain.jpg");
+    background-image: url("../images/concert.jpg");
 }
 
 .three {
-    background-image: url("../images/intour.jpg");
-}
-
-.four {
     background-image: url("../images/fire.jpg");
 }
 
-.five {
+.four {
     background-image: url("../images/end.jpg");
 }
 
