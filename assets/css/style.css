@@ -9,15 +9,12 @@
     box-sizing: border-box;
 }
 
-
 html {
     scroll-behavior: smooth;
 }
 
-
 body {
     font-family: 'Ropa Sans', sans-serif;
-    /* overflow-x: hidden; */
 }
 
 
@@ -51,19 +48,21 @@ body {
 
 
 /*----------Color palette---------*/
-/* I choosed rustics, autumn-like colors, that I think may fit well the style of the band */
 
 /* Used for navbar background, footer and section-headers */
+
 .bg-header {
     background-color: #380202;
 }
 
 /* Used for title, section headers, favicon, member names, slideshow indicator, navbar icons and in the return-to-the-top button */
+
 .bg-highlight {
     background-color: #9A0501;
 }
 
 /* Used for section header text and also as background for the sections: The Band, Tour, Store and Contact */
+
 .bg-clear {
     background-color: #f7f7f7;
 }
@@ -129,6 +128,7 @@ body {
 }
 
 /* Neutralize the hover effect when the navbar is compressed */
+
 .hvr-sweep-to-bottom:before {
     background-color: transparent;
 }
@@ -194,6 +194,7 @@ body {
 /*----------Book Now & Send---------*/
 
 /* Customized bootstrap buttons, credit: https://getbootstrap.com/docs/4.0/components/buttons/ */
+
 .btn-primary {
     background-color: #222D5A !important;
 }
