@@ -9,15 +9,20 @@
 	<title>Steve ‘n’ Seagulls</title>
 
 	<!-- Favicon -->
+    
 	<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
 
-	<!-- Hover.css link -->
+	
+    <!-- Hover.css link -->
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
 		type="text/css" />
 
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-	<!-- Bootstrap and Fontawesome links -->
+	
+    <!-- Bootstrap and Fontawesome links -->
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -29,12 +34,12 @@
 <body>
 
 	<header>
-		<!-- The navbar expand at medium breakpoint to leave more space for the navabar items   -->
-		<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-header">
-
-			<!-- The band logo was taken from the official band site: (https://stevenseagulls.com/) -->
-			<a href="#" class="my-auto">
-				<img src="assets/images/logo.png" alt="Band logo" width="85">
+		
+        <!-- Navbar, copied and modified from: https://getbootstrap.com/docs/4.3/components/navbar/  -->
+		
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-header">
+            <a href="#" class="my-auto">
+				<img src="assets/images/logo.png" alt="Band logo" width="85"> <!-- The band logo was taken from the official band site: https://stevenseagulls.com/ -->
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +47,6 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- The sweep-to-the-bottom effect is achieved thanks to hover.css, credit: http://ianlunn.github.io/Hover/ -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link hvr-sweep-to-bottom" href="#the-band">
@@ -93,11 +97,12 @@
 	</header>
 
 	<!-- Return to the top button, credit: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
-	<!-- Since this website is composed of a single scrolling page, the home page corresponds to the top of the page. For this reason instead of the classic upward arrow I used the home icon -->
+
 	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-home fa-lg"></i></button>
 
 
-	<!-- The Band section -->
+	<!-- The Band section, built using the bootstrap grid -->
+
 	<section class="the-band background one">
 		<div class="scroll-to" ID="the-band"></div>
 		<div class="bg-clear">
@@ -143,7 +148,8 @@
 	</section>
 
 
-    <!-- News section -->
+    <!-- News section, built using the bootstrap grid -->
+
 	<section class="news background two">
 		<div class="scroll-to" id="news"></div>
 		<div class="bg-darkened"></div>
@@ -270,7 +276,8 @@
 	</section>
 
 
-	<!-- Tour section -->
+	<!-- Tour section, uses a modified bootstrap table, credit: https://getbootstrap.com/docs/4.3/content/tables/-->
+
 	<section class="tour bg-clear">
 		<div class="scroll-to" id="tour"></div>
 		<h2 class="section-header">Tour</h2>
@@ -427,15 +434,15 @@
 	</section>
 
 
-	<!-- Best-hits section -->
+	<!-- Best-hits section, is a bootstrap grid with embedded youtube videos  -->
+	<!-- Adding the name of the songs seems redundant since it's already in the video preview -->
+
 	<section class="best-hits background three">
 		<div class="scroll-to" id="best-hits"></div>
 		<div class="bg-darkened"></div>
 		<h2 class="section-header">Best Hits</h2>
-		<!-- Adding the name of the songs seems redundant since it's already in the video preview -->
 		<div class="container">
 			<div class="row">
-				<!-- Thunderstruck -->
 				<div class="col-12 col-md-6">
 					<div class="embedded-ytb">
 						<iframe src="https://www.youtube.com/embed/e4Ao-iNPPUc" 
@@ -444,7 +451,6 @@
 						</iframe>
 					</div>
 				</div>
-				<!-- You shock me all night long -->
 				<div class="col-12 col-md-6">
 					<div class="embedded-ytb">
 						<iframe src="https://www.youtube.com/embed/cZS12RiBQ3o" 
@@ -453,7 +459,6 @@
 						</iframe>
 					</div>
 				</div>
-				<!-- Born to be wild -->
 				<div class="col-12 col-md-6">
 					<div class="embedded-ytb">
 						<iframe src="https://www.youtube.com/embed/p1wqvyBH5Ls" 
@@ -462,7 +467,6 @@
 						</iframe>
 					</div>
 				</div>
-				<!-- It's a long way to the top -->
 				<div class="col-12 col-md-6">
 					<div class="embedded-ytb">
 						<iframe src="https://www.youtube.com/embed/DhC780htXOc" 
@@ -471,7 +475,6 @@
 						</iframe>
 					</div>
 				</div>
-				<!-- Self esteem -->
 				<div class="col-12 col-md-6">
 					<div class="embedded-ytb">
 						<iframe src="https://www.youtube.com/embed/4Uvk4TgQWzI" 
@@ -480,7 +483,6 @@
 						</iframe>
 					</div>
 				</div>
-				<!-- Gimme all your lovin' -->
 				<div class="col-12 col-md-6">
 					<div class="embedded-ytb">
 						<iframe src="https://www.youtube.com/embed/Z5mIO5OHCrk"
@@ -495,6 +497,7 @@
 
 
 	<!-- Gallery section, uses a modified version the bootstrap carousel, credit: https://getbootstrap.com/docs/4.0/components/carousel/  -->
+
 	<section class="gallery bg-clear">
 		<div class="scroll-to" id="gallery"></div>
 		<h2 class="section-header">Gallery</h2>
@@ -508,6 +511,7 @@
 					<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
 					<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
 				</ol>
+
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img class="d-block w-100" src="assets/images/gal1.jpg" alt="Smiley band">
@@ -529,21 +533,21 @@
                     </div>
                 </div>
 
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
 		</div>
 	</section>
 
 
 	<!-- Store section, built using the bootstrap grid -->
+
 	<section class="store background four">
 		<div class="scroll-to" id="store"></div>
 		<div class="bg-darkened"></div>
@@ -551,8 +555,7 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-lg-8 shop">
-					<!-- the Merchandise picture was created with paint.net -->
-					<a href="https://store.stevenseagulls.com/" target="_blank">
+					<a href="https://store.stevenseagulls.com/" target="_blank"> <!-- the Merchandise picture was created with paint.net -->
 						<img alt="Blue coffe cup with white band logo, contains a link to the official merchandise website" src="assets/images/cup.png">
                     </a>
 				</div>
@@ -575,7 +578,8 @@
 	</section>
 
 
-	<!-- Contact section, credit: https://www.w3schools.com/css/css_form.asp -->
+	<!-- Contact section, copied and modified from w3school, credit: https://www.w3schools.com/css/css_form.asp -->
+
 	<section class="contact bg-clear">
 		<div class="scroll-to" id="contact"></div>
 		<h2 class="section-header">Contact Us!</h2>
@@ -598,7 +602,9 @@
 		</div>
 	</section>
 
+
 	<!-- Footer -->
+
 	<footer class="text-center bg-header">
 		<div class="social-link fb">
 			<a href="https://www.facebook.com/Stevenseagulls/" target="blank">
@@ -628,6 +634,7 @@
 
 
 	<!-- JavaScript links -->
+
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>

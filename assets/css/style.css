@@ -1,11 +1,12 @@
 /*----------General---------*/
 
-@import url('https://fonts.googleapis.com/css?family=Ropa+Sans:400,400i&display=swap');
+/* Font imported from Google Fonts: https://fonts.google.com/ */
 
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans:400,400i&display=swap');
 
 * {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -15,26 +16,12 @@ html {
 
 
 body {
-  /* height: 100%; */
     font-family: 'Ropa Sans', sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
-/* .row {
-    border: red solid;
 
-}
-
-.col {
-    border: blue solid;
-}
-
-.container {
-    border: yellow solid;
-} */
-
-
-/* Custom Bootsrtap grid rule */
+/* Custom Bootsrtap grid rules */
 
 .container {
     padding: 20px;
@@ -43,17 +30,17 @@ body {
 .row {
     display: inline-table;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     text-align: center;
 }
 
 
-
 /* This class accompanies all internal links of the page, preventing the destination of these from being partially covered by the navbar */
+
 .scroll-to {
     position: relative;
     margin-top: -100px;
@@ -81,9 +68,12 @@ body {
     background-color: #f7f7f7;
 }
 
+
+
 /*----------Backgrounds---------*/
 
 /* Keep the background images fixed while the sections scroll over credit: https://www.w3docs.com/snippets/css/how-to-change-the-background-image-on-scroll-with-css.html  */
+
 .background {
     position: relative;
     background-attachment: fixed;
@@ -117,6 +107,8 @@ body {
     background-image: url("../images/end.jpg");
 }
 
+
+
 /*----------Navbar---------*/
 
 .navbar {
@@ -143,6 +135,7 @@ body {
 
 
 /*----------Expanded navbar---------*/
+
 @media(min-width:768px){
 .navbar a {
     width: 91px; 
@@ -161,6 +154,7 @@ body {
     background-color: transparent;
 }
 
+/* The sweep-to-the-bottom effect is achieved thanks to hover.css, credit: http://ianlunn.github.io/Hover/ */
 
 .hvr-sweep-to-bottom:before {
     background-color: #9A0501;
@@ -196,6 +190,7 @@ body {
   background-color: #380202;
 }
 
+
 /*----------Book Now & Send---------*/
 
 /* Customized bootstrap buttons, credit: https://getbootstrap.com/docs/4.0/components/buttons/ */
@@ -207,8 +202,8 @@ body {
     text-decoration: underline !important;
 }
 
-/*----------Sections---------*/
 
+/*----------Sections---------*/
 
 .section-header  {
     padding-top: 30px;
@@ -217,6 +212,7 @@ body {
 }
 
 /* Used in sections with a background image to add contrast between the header and the background*/
+
 .bg-darkened {
     height: 200px;
     margin-bottom: -200px;
@@ -227,7 +223,6 @@ body {
 
 
 /*----------The Band---------*/
-
 
 #the-band {
     margin-top: 100vh;
@@ -256,8 +251,8 @@ body {
     display: -ms-flexbox;
     display: flex; /*Added because the name Puikkonen is larger than its container*/
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .member img {
@@ -269,6 +264,7 @@ body {
 /*----------News---------*/
 
 /* Make embedded twitter responsive  */
+
 .twitter-tweet {
     width: 100% !important;
 }
@@ -277,14 +273,18 @@ body {
     margin: 20px auto;
 }
 
-/* Make embedded facebook responsive  */
+
+/* Make embedded facebook posts responsive and makes their style consistent with the tweets */
+
 .fb-post {
     background-color: #fff;
     border-radius: 5px;
     width: 100% !important;
 }
 
+
 /* Adjust the height of facebook posts */
+
 #christmas {
     height: 594px;    
 }
@@ -300,11 +300,11 @@ body {
 
 /*----------Tour---------*/
 
-/*Credit: bootstrap table (https://getbootstrap.com/docs/4.3/content/tables/)*/
+
 
 /*----------Best Hits---------*/
 
-/* Make youtube video responsive, credit to: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+/* Make youtube videos responsive, credit to: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
 
 .embedded-ytb {
 	position: relative;
@@ -321,6 +321,7 @@ body {
 	width: 100%;
 	height: 100%;
 }
+
 
 /*----------Store---------*/
 
@@ -354,7 +355,6 @@ body {
 }
 
 
-
 #country {
     margin: 5px 0 20px;
 }
@@ -363,13 +363,15 @@ body {
     margin-top: 15px;
 }
 
+
 /*----------Footer---------*/
 
 footer {
     height: 50px;
 }
 
-/* Social icon style is taken from the Rosie resume project*/
+
+/* Social media icons design is inspired to the Rosie Odenkirk resume project */
 
 .social-link {
     margin: 9px 3px;
@@ -393,7 +395,8 @@ footer i {
     top: -2px;
 }
 
-/* Social color palette are from :https://brandpalettes.com/ */
+
+/* Social media color palette is from :https://brandpalettes.com/ */
 
 .fb:hover{
     background-color:#4267B2;
