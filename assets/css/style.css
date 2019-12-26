@@ -17,7 +17,6 @@ body {
     font-family: 'Ropa Sans', sans-serif;
 }
 
-
 /* Custom Bootsrtap grid rules */
 
 .container {
@@ -35,7 +34,6 @@ body {
     text-align: center;
 }
 
-
 /* This class accompanies all internal links of the page, preventing the destination of these from being partially covered by the navbar */
 
 .scroll-to {
@@ -44,7 +42,6 @@ body {
     height: 100px;
     z-index: -1;
 }
-
 
 
 /*----------Color palette---------*/
@@ -66,7 +63,6 @@ body {
 .bg-clear {
     background-color: #f7f7f7;
 }
-
 
 
 /*----------Backgrounds---------*/
@@ -105,7 +101,6 @@ body {
 .four {
     background-image: url("../images/end.jpg");
 }
-
 
 
 /*----------Navbar---------*/
@@ -159,8 +154,8 @@ body {
 .hvr-sweep-to-bottom:before {
     background-color: #9A0501;
 }
-
 }
+
 
 /*----------Buttons---------*/
 
@@ -243,7 +238,6 @@ body {
     margin: 15px auto 0 auto;
     text-align: center;
     padding-left: 0px;
-
 }
 
 .member h3 {
@@ -264,25 +258,22 @@ body {
 
 /*----------News---------*/
 
-/* Make embedded twitter responsive  */
-
-.twitter-tweet {
-    width: 100% !important;
-}
-
 .social-post {
     margin: 20px auto;
 }
 
+/* Without this rule, embedded posts and tweets overflow from their parents  */
 
-/* Make embedded facebook posts responsive and makes their style consistent with the tweets */
+.twitter-tweet, .fb-post {
+    width: 100% !important;
+}
+
+/* Make the style of embedded facebook posts consistent with the tweets */
 
 .fb-post {
     background-color: #fff;
     border-radius: 5px;
-    width: 100% !important;
 }
-
 
 /* Adjust the height of facebook posts */
 
@@ -332,9 +323,8 @@ body {
 
 .shop img {
     width: 100%;
-    height:auto;
+    height: auto;
 }
-
 
 /*----------Gallery---------*/
 
@@ -354,7 +344,6 @@ body {
     margin-bottom: 16px; 
     resize: vertical 
 }
-
 
 #country {
     margin: 5px 0 20px;
@@ -395,7 +384,6 @@ footer i {
     position: relative;
     top: -2px;
 }
-
 
 /* Social media color palette is from :https://brandpalettes.com/ */
 
