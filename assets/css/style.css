@@ -149,7 +149,7 @@ body {
     background-color: transparent;
 }
 
-/* The sweep-to-the-bottom effect is achieved thanks to hover.css, credit: http://ianlunn.github.io/Hover/ */
+/* The sweep-to-bottom effect is achieved thanks to hover.css, credit: http://ianlunn.github.io/Hover/ */
 
 .hvr-sweep-to-bottom:before {
     background-color: #9A0501;
