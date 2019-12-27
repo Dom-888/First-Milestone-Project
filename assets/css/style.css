@@ -17,21 +17,16 @@ body {
     font-family: 'Ropa Sans', sans-serif;
 }
 
-/* Custom Bootsrtap grid rules */
+/* Custom Bootstrap grid rules */
 
 .container {
     padding: 20px;
 }
 
 .row {
-    display: inline-table;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-align: center;
 }
 
 /* This class accompanies all internal links of the page, preventing the destination of these from being partially covered by the navbar */
@@ -212,8 +207,8 @@ body {
 .bg-darkened {
     height: 200px;
     margin-bottom: -200px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
     background-image: -o-linear-gradient(black, transparent);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
     background-image: linear-gradient(black, transparent);
 }
 
@@ -257,6 +252,12 @@ body {
 
 
 /*----------News---------*/
+
+.news .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 
 .social-post {
     margin: 20px auto;
@@ -316,6 +317,12 @@ body {
 
 
 /*----------Store---------*/
+
+.store .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 
 .shop {
     padding: 4%;
@@ -406,4 +413,3 @@ footer i {
 .social-link:hover i{
     color:#fafafa;
 }
-
