@@ -128,7 +128,7 @@ Since this website is composed of a single scrolling page, the home page corresp
 
 ## Testing
 
-####Compatibility
+#### Compatibility
 
 Throughout the development of the project I made extensive use of Chrome DevTools to test the site, with particular focus on responsivity. Before each commit I checked the compatibility of the site with each of the 9 devices simulated by Devtools:
 - Galaxy S5
@@ -144,7 +144,7 @@ Throughout the development of the project I made extensive use of Chrome DevTool
 
 In aggiunta ho testato il sito sul mio cellulare: Moto g5s with Android Nougat
 
-####Content
+#### Content
 
 - Check if all the internal links work (included the return-to-top button) and if they use the smooth scroll behavior correctly
 - Check if all the external links work and if they open in a new tab
