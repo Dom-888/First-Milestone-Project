@@ -142,8 +142,6 @@ Throughout the development of the project I made extensive use of Chrome DevTool
 - iPad
 - iPad Pro
 
-In aggiunta ho testato il sito sul mio cellulare: Moto g5s with Android Nougat
-
 #### Content
 
 - Check if all the internal links work (included the return-to-top button) and if they use the smooth scroll behavior correctly
